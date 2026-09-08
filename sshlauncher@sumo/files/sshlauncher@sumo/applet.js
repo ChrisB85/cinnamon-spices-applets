@@ -299,7 +299,7 @@ MyApplet.prototype = {
 const terminalOptions = {
   "gnome-terminal": {
     "title": "-t",
-    "execute": ["-x"]
+    "execute": ["--", "-x"]
   },
   "tilix": {
     "title": "-t",
